@@ -10,8 +10,16 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int mySqrt(int x) &#123;</span><br><span class="line">        <span class="keyword">if</span>(x==0) <span class="built_in">return</span> 0;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(x==1) <span class="built_in">return</span> 1;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">        long long int a=1;</span><br><span class="line">        <span class="keyword">while</span>(a*a&lt;x)</span><br><span class="line">        a+=1;</span><br><span class="line">        <span class="keyword">if</span>(a*a==x) <span class="built_in">return</span> a;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> a-1;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>Leetcode刷题</category>
+      </categories>
       <tags>
         <tag>Leetcode</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/07/14/Leetcode/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
