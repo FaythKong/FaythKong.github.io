@@ -1776,7 +1776,7 @@ body .button-hover:hover::before {
     border: 2px solid rgba(255,255,255,0.1);
   }
   #sidebar .author-info .author-info-avatar .author-info-avatar-img:hover {
-    animation: avatar 0.2s linear infinite;
+    animation: avatar 0.1s linear infinite;
   }
   #sidebar .author-info .author-info-name {
     margin-top: 16px;
@@ -3874,7 +3874,7 @@ body .button-hover:hover::before {
     border: 2px solid rgba(255,255,255,0.1);
   }
   #sidebar .author-info .author-info-avatar .author-info-avatar-img:hover {
-    animation: avatar 0.2s linear infinite;
+    animation: avatar 0.1s linear infinite;
   }
   #sidebar .author-info .author-info-name {
     margin-top: 16px;

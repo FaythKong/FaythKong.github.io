@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/06/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>Leetcode-69</title>
+    <url>/2024/07/14/Leetcode-69/</url>
+    <content><![CDATA[<h2 id="69-x-的平方根"><a href="#69-x-的平方根" class="headerlink" title="69. x 的平方根"></a>69. x 的平方根</h2><p>  给你一个非负整数 x ，计算并返回 x 的 算术平方根。由于返回类型是整数，结果只保留整数部分，小数部分将被舍去。 注意：不允许使用任何内置指数函数和算符，例如 pow(x, 0.5)或者x ** 0.5。</p>
+<p>示例 1：<br>输入：x &#x3D; 4<br>输出：2</p>
+<p>示例 2：<br>输入：x &#x3D; 8<br>输出：2<br>解释：8 的算术平方根是 2.82842…, 由于返回类型是整数，小数部分将被舍去。</p>
+<h3 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h3><p>暴力递增，超过则返回-1的结果，等于则直接返回结果。<br>mark：变量要使用long long int.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int mySqrt(int x) &#123;</span><br><span class="line">        <span class="keyword">if</span>(x==0) <span class="built_in">return</span> 0;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(x==1) <span class="built_in">return</span> 1;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">        long long int a=1;</span><br><span class="line">        <span class="keyword">while</span>(a*a&lt;x)</span><br><span class="line">        a+=1;</span><br><span class="line">        <span class="keyword">if</span>(a*a==x) <span class="built_in">return</span> a;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> a-1;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <tags>
+        <tag>Leetcode</tag>
+      </tags>
   </entry>
 </search>
