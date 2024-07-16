@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2024/07/14/Leetcode/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Leetcode-69</title>
     <url>/2024/07/14/Leetcode-69/</url>
     <content><![CDATA[<h2 id="69-x-的平方根"><a href="#69-x-的平方根" class="headerlink" title="69. x 的平方根"></a>69. x 的平方根</h2><p>  给你一个非负整数 x ，计算并返回 x 的 算术平方根。由于返回类型是整数，结果只保留整数部分，小数部分将被舍去。 注意：不允许使用任何内置指数函数和算符，例如 pow(x, 0.5)或者x ** 0.5。</p>
@@ -17,10 +22,5 @@
       <tags>
         <tag>Leetcode</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/07/14/Leetcode/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
