@@ -17,6 +17,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Day-4</title>
+    <url>/2024/07/22/BydDairy-4/</url>
+    <content><![CDATA[<h2 id="攒钱买U9-Day4"><a href="#攒钱买U9-Day4" class="headerlink" title="攒钱买U9-Day4"></a>攒钱买U9-Day4</h2><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>2024&#x2F;7&#x2F;22 星期一 晴 30°C</p>
+<span id="more"></span>
+<h3 id="记账"><a href="#记账" class="headerlink" title="记账"></a>记账</h3><p>今日略</p>
+<h3 id="今日狗粮"><a href="#今日狗粮" class="headerlink" title="今日狗粮"></a>今日狗粮</h3><p>早餐：炒河粉+水煮蛋+咸菜+青菜<br>中餐：辣子鸡+鸡蛋粉条<br>晚餐：酥肉+西兰花炒肉</p>
+<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><p>&ensp;&ensp;&ensp;&ensp;早上吃了早餐然后签卖身契，签之前还有个座谈，有点无聊。后面上班课，闲聊。中午吃饭，上两节课，吃饭，然后回宿舍。END</p>
+]]></content>
+      <categories>
+        <category>BydDiary</category>
+      </categories>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day-3</title>
     <url>/2024/07/21/BydDairy-3/</url>
     <content><![CDATA[<h2 id="攒钱买U9-Day3"><a href="#攒钱买U9-Day3" class="headerlink" title="攒钱买U9-Day3"></a>攒钱买U9-Day3</h2><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>2024&#x2F;07&#x2F;21 星期日 晴转阵雨 30°C</p>
@@ -49,6 +65,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Day-5</title>
+    <url>/2024/07/23/BydDairy-5/</url>
+    <content><![CDATA[<h2 id="攒钱买U9-Day5"><a href="#攒钱买U9-Day5" class="headerlink" title="攒钱买U9-Day5"></a>攒钱买U9-Day5</h2><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>2024&#x2F;07&#x2F;23 星期二 晴 30°C</p>
+<span id="more"></span>
+<h3 id="记账"><a href="#记账" class="headerlink" title="记账"></a>记账</h3><p>今日略</p>
+<h3 id="今日狗粮"><a href="#今日狗粮" class="headerlink" title="今日狗粮"></a>今日狗粮</h3><p>早餐：炒米线+鸡蛋+绿豆粥+青菜<br>中餐：员工餐<br>晚餐：猪脚饭 ￥13</p>
+<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><p>&ensp;&ensp;&ensp;&ensp;整车和一些相关工艺，信息安全和反诈骗。加班到18:10还好能准时赶上车，买了香梨火龙果和白糖，火龙果还行，香梨一坨。END</p>
+]]></content>
+      <categories>
+        <category>BydDiary</category>
+      </categories>
+      <tags>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Leetcode-66</title>
     <url>/2024/07/18/Leetcode-66/</url>
     <content><![CDATA[<h2 id="66-加一"><a href="#66-加一" class="headerlink" title="66.加一"></a>66.加一</h2><p>给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。最高位数字存放在数组的首位，数组中每个元素只存储单个数字。你可以假设除了整数 0 之外，这个整数不会以零开头。</p>
@@ -68,19 +100,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Day-4</title>
-    <url>/2024/07/22/BydDairy-4/</url>
-    <content><![CDATA[<h2 id="攒钱买U9-Day4"><a href="#攒钱买U9-Day4" class="headerlink" title="攒钱买U9-Day4"></a>攒钱买U9-Day4</h2><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>2024&#x2F;7&#x2F;22 星期一 晴 30°C</p>
-<span id="more"></span>
-<h3 id="记账"><a href="#记账" class="headerlink" title="记账"></a>记账</h3><p>今日略</p>
-<h3 id="今日狗粮"><a href="#今日狗粮" class="headerlink" title="今日狗粮"></a>今日狗粮</h3><p>早餐：炒河粉+水煮蛋+咸菜+青菜<br>中餐：辣子鸡+鸡蛋粉条<br>晚餐：酥肉+西兰花炒肉</p>
-<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><p>&ensp;&ensp;&ensp;&ensp;早上吃了早餐然后签卖身契，签之前还有个座谈，有点无聊。后面上班课，闲聊。中午吃饭，上两节课，吃饭，然后回宿舍。END</p>
+    <title>Leetcode-69</title>
+    <url>/2024/07/14/Leetcode-69/</url>
+    <content><![CDATA[<h2 id="69-x-的平方根"><a href="#69-x-的平方根" class="headerlink" title="69. x 的平方根"></a>69. x 的平方根</h2><p>  给你一个非负整数 x ，计算并返回 x 的 算术平方根。由于返回类型是整数，结果只保留整数部分，小数部分将被舍去。 注意：不允许使用任何内置指数函数和算符，例如 pow(x, 0.5)或者x ** 0.5。</p>
+<p>示例 1：<br>输入：x &#x3D; 4<br>输出：2</p>
+<p>示例 2：<br>输入：x &#x3D; 8<br>输出：2<br>解释：8 的算术平方根是 2.82842…, 由于返回类型是整数，小数部分将被舍去。</p>
+<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><span id="more"></span>
+<p>暴力递增，超过则返回-1的结果，等于则直接返回结果。<br>mark：变量要使用long long int.</p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int mySqrt(int x) &#123;</span><br><span class="line">        <span class="keyword">if</span>(x==0) <span class="built_in">return</span> 0;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(x==1) <span class="built_in">return</span> 1;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">        long long int a=1;</span><br><span class="line">        <span class="keyword">while</span>(a*a&lt;x)</span><br><span class="line">        a+=1;</span><br><span class="line">        <span class="keyword">if</span>(a*a==x) <span class="built_in">return</span> a;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> a-1;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>BydDiary</category>
+        <category>Leetcode刷题</category>
+        <category>简单</category>
       </categories>
       <tags>
-        <tag>Diary</tag>
+        <tag>Leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -98,25 +133,6 @@
 <h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><span id="more"></span>
 <p>首先考虑hashmap实现罗马数字的转换；其次上一个比下一个罗马数字大则减去小的，其他情况直接加即可。</p>
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int romanToInt(string s) &#123;</span><br><span class="line">        unordered_map&lt;char,int&gt; mymap;</span><br><span class="line">        int result=0;</span><br><span class="line">        mymap=&#123;</span><br><span class="line">            &#123;<span class="string">&#x27;I&#x27;</span>,1&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;V&#x27;</span>,5&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;X&#x27;</span>,10&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;L&#x27;</span>,50&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;C&#x27;</span>,100&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;D&#x27;</span>,500&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;M&#x27;</span>,1000&#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="keyword">for</span>(int i=0;i&lt;s.length();i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(mymap[s[i]]&lt;mymap[s[i+1]])</span><br><span class="line">            result-=mymap[s[i]];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            result+=mymap[s[i]];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Leetcode刷题</category>
-        <category>简单</category>
-      </categories>
-      <tags>
-        <tag>Leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Leetcode-69</title>
-    <url>/2024/07/14/Leetcode-69/</url>
-    <content><![CDATA[<h2 id="69-x-的平方根"><a href="#69-x-的平方根" class="headerlink" title="69. x 的平方根"></a>69. x 的平方根</h2><p>  给你一个非负整数 x ，计算并返回 x 的 算术平方根。由于返回类型是整数，结果只保留整数部分，小数部分将被舍去。 注意：不允许使用任何内置指数函数和算符，例如 pow(x, 0.5)或者x ** 0.5。</p>
-<p>示例 1：<br>输入：x &#x3D; 4<br>输出：2</p>
-<p>示例 2：<br>输入：x &#x3D; 8<br>输出：2<br>解释：8 的算术平方根是 2.82842…, 由于返回类型是整数，小数部分将被舍去。</p>
-<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><span id="more"></span>
-<p>暴力递增，超过则返回-1的结果，等于则直接返回结果。<br>mark：变量要使用long long int.</p>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int mySqrt(int x) &#123;</span><br><span class="line">        <span class="keyword">if</span>(x==0) <span class="built_in">return</span> 0;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(x==1) <span class="built_in">return</span> 1;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">        long long int a=1;</span><br><span class="line">        <span class="keyword">while</span>(a*a&lt;x)</span><br><span class="line">        a+=1;</span><br><span class="line">        <span class="keyword">if</span>(a*a==x) <span class="built_in">return</span> a;</span><br><span class="line">        <span class="keyword">else</span> <span class="built_in">return</span> a-1;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-]]></content>
       <categories>
         <category>Leetcode刷题</category>
         <category>简单</category>
