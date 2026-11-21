@@ -1,0 +1,7 @@
+if (config.comments.enable)
+    if (config.comments.type === 'gitment')
+        include ./gitment.pug
+    else if (config.comments.type === 'valine')
+        include ./valine.pug
+    else if (config.comments.type === 'twikoo')
+        include ./twikoo.pug
