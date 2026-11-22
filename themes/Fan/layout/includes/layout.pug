@@ -31,7 +31,7 @@ html(lang=config.language)
         link(rel="icon", href=url_for(theme.favicon))
         include ./head.pug
         include ./config.pug
-    body
+    body(data-password=page.password)
         canvas(id="universe")
         //#body
         include sidebar.pug
@@ -48,6 +48,7 @@ html(lang=config.language)
                 i.fas.fa-arrow-up(aria-hidden="true")
             footer
                 include footer.pug
+        include ./music.pug
         if theme.scripts !== undefined && theme.scripts.length > 0
             //- scripts list from config.yml
             each url in theme.scripts

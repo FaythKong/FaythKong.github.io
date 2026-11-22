@@ -19,7 +19,7 @@
     /**
      * @description 文章详情页面侧边栏切换文章与概览
      */
-    $('.toggle-sidebar-info span').on('click', function() {
+    function toggleSidebarInfo() {
         let toggleText = $(this).attr('data-toggle');
         $(this).attr('data-toggle', $(this).text());
         $(this).text(toggleText);
@@ -102,15 +102,28 @@
         //         }
         //     });
         // }
-    });
-    /** 
+    }
+
+    /**
      * @description 为toc-link添加URI解码，适配Hexo 5.0.0+
      */
-    var list = document.getElementsByClassName('toc-link');
-    for (var i in list) {
-        if (list.hasOwnProperty(i)) {
-            var tochref = decodeURI(list[i].getAttribute('href'));
-            list[i].href = tochref;
+    function decodeTocLinks() {
+        var list = document.getElementsByClassName('toc-link');
+        for (var i in list) {
+            if (list.hasOwnProperty(i)) {
+                var tochref = decodeURI(list[i].getAttribute('href'));
+                list[i].href = tochref;
+            }
         }
     }
+
+    /**
+     * @description 侧边栏内容会被 pjax 整体替换，替换后需要重新绑定事件
+     */
+    window.fanBindSidebar = function () {
+        $('.toggle-sidebar-info span').off('click.fan').on('click.fan', toggleSidebarInfo);
+        decodeTocLinks();
+    };
+
+    window.fanBindSidebar();
 }());

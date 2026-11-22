@@ -17,11 +17,17 @@ script(type="text/x-mathjax-config").
     });
 
 script.
-    var isPassword = '!{page.password}' || false;
-    if (isPassword) {
-        if (prompt('请输入文章密码') !== '!{page.password}') {
-            alert('密码错误！');
-            history.back();
+    window.fanCheckPassword = function (password) {
+        if (!password) {
+            return true;
         }
+        if (window.prompt('请输入文章密码') !== password) {
+            window.alert('密码错误！');
+            return false;
+        }
+        return true;
+    };
+    if (!window.fanCheckPassword('!{page.password}')) {
+        history.back();
     }
 

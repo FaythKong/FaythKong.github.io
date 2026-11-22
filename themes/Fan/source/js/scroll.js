@@ -60,11 +60,26 @@
             }
         }
     });
-    $('#sidebar-toc-content').mCustomScrollbar({
-        theme: 'minimal',
-        axis: 'y', // horizontal scrollbar
-        callbacks: {}
-    });
+    /**
+     * @description 侧边栏目录滚动条与目录跳转，pjax 切换页面后需要重新初始化
+     */
+    function initSidebarToc() {
+        const $toc = $('#sidebar-toc-content');
+        if ($toc.length && !$toc.children('.mCustomScrollBox').length) {
+            $toc.mCustomScrollbar({
+                theme: 'minimal',
+                axis: 'y', // horizontal scrollbar
+                callbacks: {}
+            });
+        }
+        $('.sidebar-toc-content .toc-link').off('click.fan').on('click.fan', function (e) {
+            e.preventDefault();
+            let _id = $(this).attr('href');
+            $('#content-outer').mCustomScrollbar('scrollTo', _id, {
+                scrollInertia: 500
+            });
+        });
+    }
 
     // $('figure.highlight').mCustomScrollbar({
     //     theme: 'minimal',
@@ -74,17 +89,6 @@
     //     },
     //     callbacks: {}
     // });
-
-    /**
-     * @description menu link scroll to content
-     */
-    $('.sidebar-toc-content .toc-link').on('click', function (e) {
-        e.preventDefault();
-        let _id = $(this).attr('href');
-        $('#content-outer').mCustomScrollbar('scrollTo', _id, {
-            scrollInertia: 500
-        });
-    });
 
     /**
      * @description 找到当前页面的位置，更改 active 目录
@@ -134,4 +138,7 @@
             easing: 'easeInQuart'
         });
     }
+
+    initSidebarToc();
+    window.fanBindScroll = initSidebarToc;
 }());

@@ -105,6 +105,8 @@ scripts:
   - /js/scroll.js
   - /js/sidebar.js
   - /js/copy.js
+  - /js/pjax.js
+  - /js/music.js
 # post 配置
 post_meta:
   date_type: updated # created or updated

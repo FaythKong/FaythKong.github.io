@@ -1,0 +1,23 @@
+- var music = theme.music || {}
+if music.enable
+    - var playerType = music.type === 'playlist' ? 0 : 2
+    - var playerHeight = music.mini === false ? 86 : 66
+    - var playerAuto = music.autoplay === false ? 0 : 1
+    - var playerSrc = 'https://music.163.com/outchain/player?type=' + playerType + '&id=' + music.id + '&auto=' + playerAuto + '&height=' + playerHeight
+    //- lives outside #content-inner and #sidebar so pjax navigation never reloads it
+    #music-player(data-height=playerHeight)
+        .music-player-bar
+            i.fas.fa-music.music-player-icon(aria-hidden="true")
+            span.music-player-title= music.title || _p('music.title')
+            i.fas.fa-angle-down.music-player-toggle(aria-hidden="true")
+        .music-player-body
+            iframe(
+                frameborder="no"
+                border="0"
+                marginwidth="0"
+                marginheight="0"
+                width="100%"
+                height=playerHeight
+                src=playerSrc
+                allow="autoplay"
+            )
