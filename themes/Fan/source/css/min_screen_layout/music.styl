@@ -31,10 +31,13 @@
     .music-player-toggle
       transition $transition-delay
   .music-player-body
-    height auto
+    // 播放器整体 300x120：标题栏 32px + 播放区 88px
+    height 88px
+    overflow hidden
     iframe
       display block
       width 100%
+      height 100%
       border none
   &.collapsed
     .music-player-body
